@@ -1,0 +1,4 @@
+interface:
+  display_name: "叙事视频制作"
+  short_description: "从叙事因果、镜头衔接到声画质检的制作工作流，保留修改与验收证据"
+  default_prompt: "使用 $direct-story-videos，依据我的意图、参考和现有素材推进视频制作，并用实际声画证据完成质检。"

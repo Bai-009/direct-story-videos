@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "example_only": true,
+  "project": "replace-with-current-project",
+  "fps": 30,
+  "duration_frames": 300,
+  "context_frames": 8,
+  "sources": ["intent.md", "directing.md"],
+  "shots": [
+    {"id": "establish", "start": 0, "end": 150},
+    {"id": "change", "start": 150, "end": 300}
+  ],
+  "transitions": [
+    {"id": "handoff", "start": 142, "end": 158}
+  ],
+  "actions": [
+    {"id": "object-contact", "frames": [180, 210, 220, 235]}
+  ],
+  "dense_ranges": []
+}

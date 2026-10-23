@@ -1,0 +1,93 @@
+{
+  "description": "Original 1920 × 1080 source-rendered frames; not browser thumbnails or upscaled images.",
+  "images": [
+    {
+      "file": "astra-routine.png",
+      "composition": "Silence-V15",
+      "frame": 2562,
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "resized": false,
+      "sha256": "a3969aa2bb2c3db63d6740ba1f9c311bd4496b49330850b8f33d80182348437f"
+    },
+    {
+      "file": "astra-hidden-failure.png",
+      "composition": "Silence-V15",
+      "frame": 3045,
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "resized": false,
+      "sha256": "ac82e0c94eddba3080092ee51f46252ff2fa27a7071596f285cba1f6367a6677"
+    },
+    {
+      "file": "astra-cascade.png",
+      "composition": "Silence-V15",
+      "frame": 4410,
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "resized": false,
+      "sha256": "160637773a3e4fba921df4f31993ecced0a6166fe43fba8dca1d92a354f7c3af"
+    },
+    {
+      "file": "astra-recovery.png",
+      "composition": "Silence-V15",
+      "frame": 5478,
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "resized": false,
+      "sha256": "8e4e3b7eef64769e6cf6554de42c8f484ae5ccb380ef961b446b80515d382ed3"
+    },
+    {
+      "file": "llm-context.png",
+      "composition": "LLM-Forward",
+      "frame": 5942,
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "resized": false,
+      "sha256": "92099e4b277a7ca0e22f1639565a9cc990b2f65730f8359aa54fee8a93e47898"
+    },
+    {
+      "file": "llm-multiply.png",
+      "composition": "LLM-Forward",
+      "frame": 9724,
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "resized": false,
+      "sha256": "5856b06f26180c92237801d74682ec9d211191f5555f141fe0ac642afef65c85"
+    },
+    {
+      "file": "llm-rotation.png",
+      "composition": "LLM-Forward",
+      "frame": 13496,
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "resized": false,
+      "sha256": "1981a9ea78080be7f447b44b5f013ad92e9c4b60401bc7f685f70550643838f4"
+    },
+    {
+      "file": "llm-cache.png",
+      "composition": "LLM-Forward",
+      "frame": 32982,
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "format": "PNG",
+      "resized": false,
+      "sha256": "e8222fcf45cf2b3492ff9ce4ddb9e62c6d596d36ddda030bccda762dd148a143"
+    }
+  ]
+}
