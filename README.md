@@ -6,7 +6,7 @@
 
 An open, judgment-driven skill for AI-assisted video direction. Choose narrative, visual language, transitions, pacing and sound for the current work—not by copying the last video's style. Instructions and workflow documentation are primarily in Chinese.
 
-[开始使用](#开始使用) · [完整 SOP](制作SOP.md) · [Skill 入口](skills/direct-story-videos/SKILL.md) · [使用与验证](使用与验证.md) · [English guide](docs/README.en.md)
+[动态样例](examples/style-lab/README.md) · [开始使用](#开始使用) · [完整 SOP](制作SOP.md) · [Skill 入口](skills/direct-story-videos/SKILL.md) · [English guide](docs/README.en.md)
 
 ## 保存判断，不保存套路
 
@@ -22,6 +22,20 @@ An open, judgment-driven skill for AI-assisted video direction. Choose narrative
 | 节奏 | 理解、表演、观察、音乐或期待，谁决定时间 | 一律加速、固定镜长、每拍都动 |
 | 声音 | 哪些职能需要声音，各层怎样分工 | 旁白＋音乐＋音效的固定套餐 |
 | 质检 | 当前版本有哪些实际证据，哪些仍没验证 | 测试通过就等于好看、自然或看懂 |
+
+## 八段实际动态样例
+
+新增 [Style Lab](examples/style-lab/README.md)：线描讲解、字体动效、扁平图形表演、纸艺空间、等距流程、像素动作、原生三维拆解、生成式抽象。各有内容、动作与时间组织，合计约 1 分 53 秒；不是同一张图换滤镜，也没有使用生图结果。
+
+克隆后进入 `examples/style-lab`，运行 `npm ci` 与 `npm run dev` 即可播放、逐帧查看和改源码。每段独立注册为可编辑合成，尺寸 1920×1080、30 fps，本轮静音。
+
+| 纸艺空间：跟随船穿过景层 | 字体动效：让注意力获得空间 |
+| --- | --- |
+| [![纸艺动态合成实帧](docs/motion/04-paper.png)](docs/motion-studies.md) | [![字体动态合成实帧](docs/motion/02-type.png)](docs/motion-studies.md) |
+| 像素动作：起跳与落地的时间 | 三维拆解：通过转动看见体积 |
+| [![像素动态合成实帧](docs/motion/06-pixel.png)](docs/motion-studies.md) | [![三维动态合成实帧](docs/motion/07-mesh.png)](docs/motion-studies.md) |
+
+上表是动态源码的实际渲染帧，点击查看 [完整八段与高清图](docs/motion-studies.md)。静帧不代替播放：安装与合成入口见 [样例说明](examples/style-lab/README.md)，取舍依据见 [导演记录](examples/style-lab/DIRECTING.md)。本例未预先导出 MP4，不声称覆盖所有画风。
 
 ## 两部作品，两种表达
 
@@ -138,6 +152,7 @@ skills/direct-story-videos/
 ├── assets/project-template/ 按需采用的工作文件
 └── scripts/video_workflow.py
 tests/                      工具行为测试
+examples/style-lab/         八段可运行的动态样例、字体与锁文件
 docs/                       使用说明、验证边界与高清实帧
 制作SOP.md                  人可阅读的完整流程
 使用与验证.md               命令、字段与验证方法
@@ -157,4 +172,4 @@ python3 -B -m unittest discover -s tests -v
 
 ## 许可
 
-Skill、文档和脚本采用 [MIT License](LICENSE)。示例截图按 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 提供，署名 Bai-009，详见 [图片说明](docs/images/README.md)；不包含第三方商标的授权。
+Skill、文档、脚本与动态样例源码采用 [MIT License](LICENSE)。示例截图按 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 提供，署名 Bai-009，详见 [图片说明](docs/images/README.md) 与 [动态样例](docs/motion-studies.md)；不包含第三方商标的授权。打包字体保留各自的 OFL 许可。

@@ -1,0 +1,15 @@
+import React from 'react';
+import {staticFile,useCurrentFrame,useVideoConfig} from 'remotion';
+import {loadFont} from '@remotion/fonts';
+loadFont({family:'StudySans',url:staticFile('fonts/sans.woff2'),weight:'600'});
+loadFont({family:'StudyHeavy',url:staticFile('fonts/heavy.woff2'),weight:'900'});
+loadFont({family:'StudySerif',url:staticFile('fonts/serif.woff2'),weight:'600'});
+export const clamp=(x:number)=>Math.max(0,Math.min(1,x));
+export const smooth=(x:number)=>{const v=clamp(x);return v*v*(3-2*v);};
+export const span=(t:number,a:number,b:number)=>smooth((t-a)/(b-a));
+export const lerp=(a:number,b:number,t:number)=>a+(b-a)*t;
+export const hash=(x:number)=>{const v=Math.sin(x*78.233+12.321)*43758.5453;return v-Math.floor(v);};
+export const useTime=()=>{const f=useCurrentFrame();const {fps}=useVideoConfig();return f/fps;};
+export const Stage=({background,children,label}:{background:string;children:React.ReactNode;label:string})=><svg width={1920} height={1080} viewBox="0 0 1920 1080" role="img" aria-label={label} style={{display:'block',background}}>{children}</svg>;
+export const Text=({x=960,y,size=48,fill='#202a2a',children,anchor='middle',family='StudySans',opacity=1}:{x?:number;y:number;size?:number;fill?:string;children:React.ReactNode;anchor?:'middle'|'start'|'end';family?:string;opacity?:number})=><text x={x} y={y} fontFamily={family} fontSize={size} fill={fill} textAnchor={anchor} opacity={opacity}>{children}</text>;
+export const Draw=({d,p=1,color='#263538',width=5,opacity=1,dash}:{d:string;p?:number;color?:string;width?:number;opacity?:number;dash?:string})=><path d={d} pathLength={1} fill="none" stroke={color} strokeWidth={width} strokeLinecap="round" strokeLinejoin="round" strokeDasharray={dash??1} strokeDashoffset={dash?0:1-clamp(p)} opacity={opacity}/>;
