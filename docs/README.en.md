@@ -2,7 +2,7 @@
 
 A judgment-driven skill for AI-assisted video direction, reconstruction and review. It covers narrative, visual language, transitions, pacing, sound, continuity and version-bound evidence.
 
-The skill does not prescribe a palette, hand-drawn style, story formula or soundtrack. Start from the work's purpose, audience, viewing conditions and available material. Explain the choice, the conditions that would change it, and how the result will be evaluated.
+Choose palette, medium, story structure and sound from the work's purpose, audience, viewing conditions and available material. Explain the choice, the conditions that would change it, and how the result will be evaluated.
 
 ## Install
 
@@ -29,6 +29,6 @@ No rendering engine or third-party service is bundled. Remotion-specific work ne
 
 [Style Lab](../examples/style-lab/README.md) contains eight actual, frame-driven Remotion motion studies: ink explanation, kinetic typography, flat graphic performance, paper space, isometric flow, pixel action, native 3D geometry and a generative field. They run for 12–16 seconds each, totaling 113 seconds, at 1920×1080 and 30 fps, silent. No generated still-image assets are used. Run `npm ci` and `npm run dev` inside `examples/style-lab/` to play and edit them. [Complete animated GIF previews and Full HD source-frame gallery](motion-studies.md) and [directing rationale](../examples/style-lab/DIRECTING.md) explain scope and choices. The eight complete GIF previews are 960×540 at nominal 15 fps, original speed, silent and looping; source compositions remain 1920×1080 at 30 fps. No pre-rendered MP4 is included.
 
-The [main README](../README.md) includes eight native **1920×1080 PNG** frames from two video projects. Click the images for full resolution. They illustrate project-specific choices, not a required style or proof of viewer comprehension. Complete film source and audio are not included.
+The [main README](../README.md) includes eight native **1920×1080 PNG** frames from two video projects. Click the images for full resolution. They document choices made for those projects. Viewer comprehension requires separate feedback. Complete film source and audio are not included.
 
 Skill, scripts and documentation: [MIT](../LICENSE). Example PNGs and GIF previews: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), attribution Bai-009; see [image notes](images/README.md). Third-party trademark rights are not granted.
