@@ -12,6 +12,8 @@ An open, judgment-driven skill for AI-assisted video direction. Develop narrativ
 
 从观众需要理解或感受的内容出发，决定怎样叙述、怎样拍、怎样安排声音。每次选择都留下依据，供后续制作和修订参考：**想让观众理解或感受什么 → 当前有哪些条件 → 为什么选择这种方法 → 条件怎样变化会让它失效 → 怎样用作品验证。**
 
+具体按 [从事情本身想出画面](skills/direct-story-videos/references/content-to-screen.md) 推导：先弄清事情为什么会这样，再找出观众需要看到或听到的变化。需要完整示范时，可看 [云端 Agent 与 LLM 的两个工作例子](skills/direct-story-videos/references/content-to-screen-examples.md)。
+
 | 方面 | 选择依据 | 制作时落实到 |
 | --- | --- | --- |
 | 叙事 | 观众需要理解的关系，以及已有经验 | 信息顺序、因果交代与线索安排 |

@@ -4,6 +4,8 @@ A judgment-driven skill for AI-assisted video direction, reconstruction and revi
 
 Choose palette, medium, story structure and sound from the work's purpose, audience, viewing conditions and available material. Explain the choice, the conditions that would change it, and how the result will be evaluated.
 
+For new films and substantial reconstructions, use [content-to-screen development](../skills/direct-story-videos/references/content-to-screen.md): understand how the subject works, identify what the audience needs to notice, and derive observable changes before arranging shots and sound. [Two worked examples](../skills/direct-story-videos/references/content-to-screen-examples.md) trace the choices for a cloud-agent story and an LLM explanation. Their proposed effects still need motion studies and viewing feedback.
+
 ## Install
 
 Clone `https://github.com/Bai-009/direct-story-videos.git` and copy the entire `skills/direct-story-videos/` folder into your agent's skills directory. For Codex, this is normally `~/.codex/skills/`. Compare or back up an existing installation before replacing it.
