@@ -4,6 +4,6 @@ __pycache__/
 .venv/
 .env
 .env.*
-node_modules/
+node_modules
 out/
 production/
