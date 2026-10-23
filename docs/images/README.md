@@ -10,6 +10,6 @@
 
 ## 图片许可
 
-上述八张 PNG 按 [Creative Commons Attribution 4.0 International（CC BY 4.0）](https://creativecommons.org/licenses/by/4.0/) 提供。
+上述八张 PNG，以及 `docs/motion/` 中的源帧 PNG 与 `docs/motion/gifs/` 中的源码渲染 GIF，均按 [Creative Commons Attribution 4.0 International（CC BY 4.0）](https://creativecommons.org/licenses/by/4.0/) 提供。后两组的来源与边界见 [动态样例页](../motion-studies.md)。
 
 建议署名：`Bai-009 / Direct Story Videos — https://github.com/Bai-009/direct-story-videos — CC BY 4.0`。如作修改，请注明。此许可不授予第三方商标权，也不表示项目或品牌为使用者背书。

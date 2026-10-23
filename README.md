@@ -29,13 +29,19 @@ An open, judgment-driven skill for AI-assisted video direction. Choose narrative
 
 克隆后进入 `examples/style-lab`，运行 `npm ci` 与 `npm run dev` 即可播放、逐帧查看和改源码。每段独立注册为可编辑合成，尺寸 1920×1080、30 fps，本轮静音。
 
-| 纸艺空间：跟随船穿过景层 | 字体动效：让注意力获得空间 |
-| --- | --- |
-| [![纸艺动态合成实帧](docs/motion/04-paper.png)](docs/motion-studies.md) | [![字体动态合成实帧](docs/motion/02-type.png)](docs/motion-studies.md) |
-| 像素动作：起跳与落地的时间 | 三维拆解：通过转动看见体积 |
-| [![像素动态合成实帧](docs/motion/06-pixel.png)](docs/motion-studies.md) | [![三维动态合成实帧](docs/motion/07-mesh.png)](docs/motion-studies.md) |
+下列动图直接播放每段完整动作：**960×540，约 15 fps，12–16 秒，原速循环，静音**。为便于 GitHub 加载使用 GIF，1920×1080 高清 PNG 仍可在样例页查看；源码保持 30 fps。
 
-上表是动态源码的实际渲染帧，点击查看 [完整八段与高清图](docs/motion-studies.md)。静帧不代替播放：安装与合成入口见 [样例说明](examples/style-lab/README.md)，取舍依据见 [导演记录](examples/style-lab/DIRECTING.md)。本例未预先导出 MP4，不声称覆盖所有画风。
+| 线描机制：看见结构怎样改变 | 字体动效：让注意力获得空间 |
+| --- | --- |
+| [![线描机制完整动图](docs/motion/gifs/01-ink.gif)](docs/motion-studies.md#01--线描机制讲解) | [![字体动效完整动图](docs/motion/gifs/02-type.gif)](docs/motion-studies.md#02--字体动效) |
+| 扁平表演：压缩、弹起与到位 | 纸艺空间：跟随船穿过景层 |
+| [![扁平表演完整动图](docs/motion/gifs/03-flat.gif)](docs/motion-studies.md#03--扁平图形表演) | [![纸艺空间完整动图](docs/motion/gifs/04-paper.gif)](docs/motion-studies.md#04--纸艺空间) |
+| 等距流程：跟住同一件物体 | 像素动作：起跳与落地的时间 |
+| [![等距流程完整动图](docs/motion/gifs/05-iso.gif)](docs/motion-studies.md#05--等距流程) | [![像素动作完整动图](docs/motion/gifs/06-pixel.gif)](docs/motion-studies.md#06--像素动作) |
+| 三维拆解：通过转动看见体积 | 生成式抽象：从独立到共同运动 |
+| [![三维拆解完整动图](docs/motion/gifs/07-mesh.gif)](docs/motion-studies.md#07--原生三维拆解) | [![生成式抽象完整动图](docs/motion/gifs/08-field.gif)](docs/motion-studies.md#08--生成式抽象运动) |
+
+点击查看 [完整八段、设计说明与高清原图](docs/motion-studies.md)。安装与合成入口见 [样例说明](examples/style-lab/README.md)，取舍依据见 [导演记录](examples/style-lab/DIRECTING.md)。动图循环回到片头时会重新开始，不是无缝循环设计；本例不声称覆盖所有画风。
 
 ## 两部作品，两种表达
 
